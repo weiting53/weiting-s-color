@@ -1,0 +1,21 @@
+{
+  "name": "weiting-s-color",
+  "displayName": "Weiting's color",
+  "description": "codercolor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "red_card_queen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red_card_queen-color-theme.json"
+      }
+    ]
+  }
+}
