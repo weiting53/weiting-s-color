@@ -1,4 +1,6 @@
+
 {
+  "publisher": "weiting",
   "name": "weiting-s-color",
   "displayName": "Weiting's color",
   "description": "codercolor",
@@ -6,15 +8,20 @@
   "engines": {
     "vscode": "^1.80.0"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiting53/weiting-s-color"
+  },
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "red_card_queen",
+        "label": "weiting-candycolor",
         "uiTheme": "vs-dark",
-        "path": "./themes/red_card_queen-color-theme.json"
+        "path": "./themes/weiting-candycolor-color-theme.json"
       }
     ]
   }
